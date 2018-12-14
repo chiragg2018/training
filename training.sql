@@ -16,4 +16,4 @@ GROUP BY 1,2
 )t4
 on t1.c_code=t4.c_dist_item_code and t1.distributor_id=t4.n_distributor_id
 where t1.distributor_id=6
---GROUP by 1,2,3,4,5,6
+GROUP by 1,2,3,4,5,6
